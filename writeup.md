@@ -66,12 +66,13 @@ This is done to even out the starting points of all the data so the network can 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My model consisted fo the following hyper parameters:
-| Hyper-parameter    | Value            |
+
+| Hyper-parameter    | Value      |
 |:------------------:|:----------:|
-| Epochs             | 20               |
-| batch\_size           | 256        |
-| Learning Rate         | 0.001      |
-| Max pooling 2x2          |    0.75       |
+| Epochs             | 20         |
+| batch\_size        | 256        |
+| Learning Rate      | 0.001      |
+| Max pooling 2x2    | 0.75       |
 
 And the following layers:
 
