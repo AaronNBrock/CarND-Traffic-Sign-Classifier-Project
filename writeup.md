@@ -68,7 +68,7 @@ This is done to even out the starting points of all the data so the network can 
 My model consisted fo the following hyper parameters:
 
 | Hyper-parameter    | Value      |
-|:------------------:|:----------:|
+|:------------------|:----------|
 | Epochs             | 20         |
 | batch\_size        | 256        |
 | Learning Rate      | 0.001      |
@@ -77,7 +77,7 @@ My model consisted fo the following hyper parameters:
 And the following layers:
 
 | Layer                       |     Description                                                 | Output shape |
-|:---------------------:|:---------------------------------------------:|:------------:|
+|:---------------------|:---------------------------------------------|:------------|
 | Input                       | 32x32x3 RGB image                                                  | 32x32x3      |
 | Convolution 5x5          | 5x5 filter, 1x1 stride, Valid padding            | 28x28x6      |
 | Relu                     | ReLU Activation Function                         |              |
